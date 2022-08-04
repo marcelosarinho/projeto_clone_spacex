@@ -68,7 +68,7 @@ Esse projeto utiliza a Licença MIT.
 <h2 id="autor">👨‍💻 Autor</h2>
 <div align="center">
 <a href="https://github.com/marcelosarinho">
-<img src="" style="border-radius: 50%;"/>
+<img src="https://avatars.githubusercontent.com/u/105175233?s=400&u=319025640369177cd290b894f1ffd06363059b64&v=4" width="150px"/>
 </a>
 <a href="https://github.com/marcelosarinho"><h3>Marcelo Sarinho</h3></a>
 <h5>Contato</h5>
