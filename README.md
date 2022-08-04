@@ -33,23 +33,32 @@
 <h2 id="sobre">📖 Sobre</h2>
 <p>Esse repositório é um clone do site da SpaceX, e foi realizado no curso Programador Full Stack JavaScript Profissional, da OneBitCode. Ele não possui a parte de JavaScript, sendo, portanto, um projeto que serve de prática para HTML, CSS, SASS e Bootstrap.</p>
 <h2 id="pre-requisitos">📋 Pré-Requisitos</h2>
-<p>Para testar essa aplicação, é necessário <a href="https://git-scm.com/">Git</a> e <a href="https://www.npmjs.com/">npm</a> (ou <a href="https://yarnpkg.com/">Yarn</a>).</p>
-<p>Caso queira testar o projeto na sua máquina, siga esses passos:</p>
+<p>Há duas maneiras de acessar a aplicação:
+<ul>
+<li>Através do link do projeto: https://projeto-clone-spacex.vercel.app/</li>
+<li>Através das instruções a seguir</li>
+</ul>
+</p>
+<p>Para testar essa aplicação, é necessário <a href="https://git-scm.com/">Git</a>, <a href="https://code.visualstudio.com/">VSCode</a> (e a extensão <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a>) e <a href="https://www.npmjs.com/">npm</a> (ou <a href="https://yarnpkg.com/">Yarn</a>).</p>
+<p>Primeiro de tudo, é necessário instalar a extensão Live Server no VSCode. Ao abrir o VSCode, clique no ícone de Extensões, no lado esquerdo da tela:</p>
+<img src="./screenshots/passoUm.png" alt="passo-um">
+<p>Logo em seguida, pesquise "Live Server", clique no primeiro, e depois clique em "Instalar".</p>
+<img src="./screenshots/passoDois.png" alt="passo-dois">
+<p>Então, siga os passos abaixo:</p>
 
 ```bash
 # Clone o repositório
-$ git clone <https://github.com/marcelosarinho/portfolio>
+$ git clone <https://github.com/marcelosarinho/projeto_clone_spacex>
 
 # Acesse a pasta do projeto clonado
-$ cd portfolio
+$ cd projeto_clone_spacex
 
-# Instale as dependências necessárias para o projeto
-$ npm install
+# Abra o VSCode
+$ code .
 
-# Execute o comando
-$ npm start
+# Selecione o arquivo index.html com o botão direito e clique em "Open with Live Server"
 
-# O site aparecerá automaticamente, caso não apareça acesse <http://localhost:3000/>
+# Pronto! O site aparecerá automaticamente, caso não apareça acesse <http://127.0.0.1:5500/index.html/>
 
 ```
 
